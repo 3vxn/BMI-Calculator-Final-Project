@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D71D88528008F9A001B9270 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71D88428008F99001B9270 /* WebsiteViewController.swift */; };
 		4D93D0AA27FB59D00083E3AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93D0A927FB59D00083E3AF /* AppDelegate.swift */; };
 		4D93D0AC27FB59D00083E3AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93D0AB27FB59D00083E3AF /* SceneDelegate.swift */; };
 		4D93D0AE27FB59D00083E3AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93D0AD27FB59D00083E3AF /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D71D88428008F99001B9270 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
 		4D93D0A627FB59D00083E3AF /* BMI Calculator Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D93D0A927FB59D00083E3AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D93D0AB27FB59D00083E3AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				4D93D0AB27FB59D00083E3AF /* SceneDelegate.swift */,
 				4D93D0AD27FB59D00083E3AF /* ViewController.swift */,
 				4D93D0AF27FB59D00083E3AF /* Main.storyboard */,
+				4D71D88428008F99001B9270 /* WebsiteViewController.swift */,
 				4D93D0B227FB59D10083E3AF /* Assets.xcassets */,
 				4D93D0B427FB59D10083E3AF /* LaunchScreen.storyboard */,
 				4D93D0B727FB59D10083E3AF /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D71D88528008F9A001B9270 /* WebsiteViewController.swift in Sources */,
 				4D93D0AE27FB59D00083E3AF /* ViewController.swift in Sources */,
 				4D93D0AA27FB59D00083E3AF /* AppDelegate.swift in Sources */,
 				4D93D0AC27FB59D00083E3AF /* SceneDelegate.swift in Sources */,
@@ -441,6 +445,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BMI Calculator Final Project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI Calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +473,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BMI Calculator Final Project/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BMI Calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

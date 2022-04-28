@@ -9,7 +9,8 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+//UIResponder responds to and handles all events in the app
+//must implement UIApplicationDelegate to be notified about what user does
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -33,4 +34,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 
